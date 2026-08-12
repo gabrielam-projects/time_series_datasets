@@ -1,4 +1,4 @@
-# Data Repository: Deep Learning Experiments with MIMIC-III
+# Data Repository: Deep Learning Experiments
 
 This repository contains the public evidence package for the datasets built to experiment with context-aware Deep Learning architectures on irregular clinical time series.
 
