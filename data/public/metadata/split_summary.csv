@@ -1,0 +1,4 @@
+split,admissions,subjects,mortality_rate,age_mean,age_std
+train,1400,1388,0.110714,55.427143,27.07534
+val,299,297,0.090301,53.254181,29.183329
+test,301,298,0.093023,55.787375,28.444237

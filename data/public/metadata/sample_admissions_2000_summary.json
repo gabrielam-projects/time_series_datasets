@@ -1,0 +1,26 @@
+{
+  "random_seed": 2026,
+  "n_samples": 2000,
+  "n_subjects": 1983,
+  "window_hours": 168,
+  "mortality_rate": 0.105,
+  "age_mean": 55.1565,
+  "age_std": 27.605761115632852,
+  "split_counts": {
+    "train": {
+      "admissions": 1400,
+      "subjects": 1388,
+      "mortality_rate": 0.11071428571428571
+    },
+    "val": {
+      "admissions": 299,
+      "subjects": 297,
+      "mortality_rate": 0.0903010033444816
+    },
+    "test": {
+      "admissions": 301,
+      "subjects": 298,
+      "mortality_rate": 0.09302325581395349
+    }
+  }
+}

@@ -1,0 +1,6 @@
+file,rows,columns,column_names,unique_users,anomaly_rate
+data/public/synthetic/simulated_sleep_data.csv,15869,10,user_id;sleep_id;timestamp;light;rem;deep;fall_asleep;awake;device;is_anomalous,100,0.155208
+data/public/synthetic/simulated_user_data.csv,100,8,user_id;registered_at;age;gender;height_cm;weight_kg;bmi;activity_level,100,
+data/public/synthetic/regenerated_full_package/simulated_sleep_data.csv,15869,10,user_id;sleep_id;timestamp;light;rem;deep;fall_asleep;awake;device;is_anomalous,100,0.154263
+data/public/synthetic/regenerated_full_package/simulated_heart_rate_data.csv,96107,10,user_id;sleep_id;timestamp;duration_secs;activity;hr_min;hr_avg;hr_max;device;is_anomalous,100,0.153433
+data/public/synthetic/regenerated_full_package/simulated_user_data.csv,100,8,user_id;registered_at;age;gender;height_cm;weight_kg;bmi;activity_level,100,

@@ -1,0 +1,22 @@
+{
+  "tag": "full_light",
+  "data": {
+    "temporal_events_file": "/Users/gabrielamartinez/Library/CloudStorage/GoogleDrive-gabrielam.code@gmail.com/My Drive/1. DCC/Experimentos/outputs/mimic_context_aware_subset/temporal_events_2000.csv",
+    "n_temporal_events": 174177,
+    "n_admissions_with_events": 1983
+  },
+  "training": {
+    "epochs": 5,
+    "batch_size": 32,
+    "eval_batch_size": 128,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "d_model": 32,
+    "n_heads": 2,
+    "n_layers": 1,
+    "dropout": 0.2,
+    "max_seq_len": 128,
+    "device": "cpu"
+  }
+}

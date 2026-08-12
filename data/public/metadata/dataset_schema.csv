@@ -1,0 +1,25 @@
+file,column,description
+sample_admissions_2000.csv,subject_id,"MIMIC-III patient identifier; restricted, not published"
+sample_admissions_2000.csv,hadm_id,"MIMIC-III hospital admission identifier; restricted, not published"
+sample_admissions_2000.csv,admit_time,"Admission timestamp from MIMIC-III; restricted, not published"
+sample_admissions_2000.csv,discharge_time,"Discharge timestamp from MIMIC-III; restricted, not published"
+sample_admissions_2000.csv,death_time,"Death timestamp when available; restricted, not published"
+sample_admissions_2000.csv,window_start,"Start of 168-hour extraction window; restricted, not published"
+sample_admissions_2000.csv,window_end,"End of 168-hour extraction window; restricted, not published"
+sample_admissions_2000.csv,mortality_label,Binary in-hospital mortality label from HOSPITAL_EXPIRE_FLAG
+sample_admissions_2000.csv,age,Age at admission; ages greater than 120 grouped as 90
+sample_admissions_2000.csv,gender,Patient gender category
+sample_admissions_2000.csv,insurance,Admission insurance category
+sample_admissions_2000.csv,admission_type,Admission type category
+sample_admissions_2000.csv,admission_location,Admission location category
+sample_admissions_2000.csv,ethnicity,Ethnicity category
+sample_admissions_2000.csv,split,Train/validation/test split assigned by subject_id
+temporal_events_2000.csv,subject_id,"MIMIC-III patient identifier; restricted, not published"
+temporal_events_2000.csv,hadm_id,"MIMIC-III hospital admission identifier; restricted, not published"
+temporal_events_2000.csv,variable,Temporal variable: heart_rate or glucose
+temporal_events_2000.csv,source,MIMIC-III source table: CHARTEVENTS or LABEVENTS
+temporal_events_2000.csv,itemid,MIMIC-III item identifier used to extract the variable
+temporal_events_2000.csv,chart_time,"Event timestamp; restricted, not published"
+temporal_events_2000.csv,hours_since_admit,"Relative time in hours since admission within [0, 168]"
+temporal_events_2000.csv,value,Observed numeric clinical value
+temporal_events_2000.csv,mask,Observation mask equal to 1 for extracted rows
